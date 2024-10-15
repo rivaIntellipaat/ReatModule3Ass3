@@ -1,0 +1,19 @@
+/* src/ThemedComponent.css */
+.themed-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center;     /* Center horizontally */
+    height: 100vh;          /* Full height */
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}

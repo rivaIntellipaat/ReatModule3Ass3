@@ -1,0 +1,25 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.App {
+  text-align: center;
+}
+
+.themed-component {
+
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
